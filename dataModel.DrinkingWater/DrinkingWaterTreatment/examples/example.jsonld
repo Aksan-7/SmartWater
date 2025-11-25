@@ -1,0 +1,11 @@
+{
+  "id": "urn:ngsi-ld:DrinkingWaterTreatment:CoagulationProcess",
+  "type": "CoagulationProcess",
+  "description": "Coagulation process in drinking water treatment",
+  "fecl3_concentration": 2.0,
+  "after_dredging": 180.0,
+  "lane": 2,
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ]
+}
