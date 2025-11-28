@@ -1,0 +1,11 @@
+{
+  "id": "urn:ngsi-ld:DrinkingWaterSimulation:CoagulationSoftSensor",
+  "type": "DrinkingWaterSimulation",
+  "description": "Simulation of coagulation process in drinking water treatment",
+  "ftu_section": [5.081287860870361],
+  "model": "PhysicsModel",
+  "dateObserved": "2022-03-08T15:00:00+00:00",
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+  ]
+}
