@@ -1,0 +1,2 @@
+id_,type_,description__type_,description__value_,ftu_section__type_,ftu_section__value_,model__type_,model__value_,dateObserved__type_,dateObserved__value_,@context__0_
+"urn:ngsi-ld:DrinkingWaterSimulation:CoagulationSoftSensor","DrinkingWaterSimulation","Property","Simulation of coagulation process in drinking water treatment","Property","[5.081287860870361]","Property","PhysicsModel","Property","2022-03-08T15:00:00+00:00","https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
