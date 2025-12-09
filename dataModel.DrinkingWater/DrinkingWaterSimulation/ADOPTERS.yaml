@@ -1,0 +1,11 @@
+description: This is a compilation list of the current adopters of the data model DrinkingWaterSimulation of the Subject dataModel.DrinkingWater. All fields are non mandatory. More info at https://smart-data-models.github.io/data-models/templates/dataModel/CURRENT_ADOPTERS.yaml #TODO: check link
+currentAdopters:
+-
+ adopter: Aron Aksan
+ description: Demonstration of Fiware while integrating to the legacy system of the Amsterdam West WWTP in an EU project
+  called ToDrinQ. The Blower data model is currently being used in collaboration with Waternet.
+ mail: aron.aksan@kwrwater.nl
+ organization: KWR Water Research Institue
+ project: ToDrinQ
+ comments: 
+ startDate: 
