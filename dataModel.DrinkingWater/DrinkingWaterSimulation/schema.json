@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "modelTags": "",
+  "$id": "https://smart-data-models.github.io/data-models/specs/DrinkingWaterTreatment/DrinkingWaterSimulation/schema.json",
+  "$schemaVersion": "0.1.0",
+  "title": "DrinkingWaterTreatment - Drinking Water Simulation",
+  "description": "This entity contains a harmonised description of a generic simulation of a drinking water treatment process (e.g. coagulation). It captures the model used and key simulated or measured output variables.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "DrinkingWaterSimulation"
+          ],
+          "description": "Property. NGSI-LD Entity Type. It has to be DrinkingWaterSimulation"
+        },
+        "ftu_section": {
+          "type": "array",
+          "description": "Property. Model: https://schema.org/Number. Units: 'FTU'. Simulated or measured turbidity of the section expressed as Formazin Turbidity Units.",
+          "items": {
+            "type": "number"
+          }
+        },
+        "model": {
+          "type": "string",
+          "description": "Property. Model: https://schema.org/Text. Model used for the simulation (e.g. PhysicsModel, DataDrivenModel, HybridModel)."
+        }
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type",
+    "description"
+  ]
+}

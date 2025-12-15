@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "modelTags": "",
+  "$id": "https://smart-data-models.github.io/data-models/specs/DrinkingWaterTreatment/CoagulationProcess/schema.json",
+  "$schemaVersion": "0.1.0",
+  "title": "DrinkingWaterTreatment - Coagulation Process",
+  "description": "This entity contains a harmonised description of a coagulation process in a drinking water treatment plant. It captures key process variables such as coagulant concentration and lane information.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "CoagulationProcess"
+          ],
+          "description": "Property. NGSI-LD Entity Type. It has to be CoagulationProcess"
+        },
+        "fecl3_concentration": {
+          "type": "number",
+          "description": "Property. Model: https://schema.org/Number. Units: 'mg/L'. Ferric chloride (FeCl3) concentration used for coagulation dosing."
+        },
+        "after_dredging": {
+          "type": "number",
+          "description": "Property. Model: https://schema.org/Number. Process variable measured after the dredging step (unit according to plant configuration)."
+        },
+        "lane": {
+          "type": "integer",
+          "description": "Property. Model: https://schema.org/Number. Lane or treatment line identifier where the coagulation process takes place."
+        }
+      }
+    }
+  ],
+  "required": [
+    "id",
+    "type",
+    "description"
+  ]
+}
