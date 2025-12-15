@@ -1,4 +1,0 @@
-id_,type_,description__type_,description__value_,fecl3_concentration__type_,fecl3_concentration__value_,after_dredging__type_,after_dredging__value_,lane__type_,lane__value_,@context__0_
-"urn:ngsi-ld:DrinkingWaterTreatment:CoagulationProcess","CoagulationProcess","Property","Coagulation process in drinking water treatment","Property",2.0,"Property",180.0,"Property",2,"https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
-
-// not sure about context__0_ col name and value
