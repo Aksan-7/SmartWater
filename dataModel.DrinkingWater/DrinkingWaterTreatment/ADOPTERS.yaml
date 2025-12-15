@@ -2,10 +2,11 @@ description: This is a compilation list of the current adopters of the data mode
 currentAdopters:
 -
  adopter: Aron Aksan
- description: Demonstration of Fiware while integrating to the legacy system of the Amsterdam West WWTP in an EU project
-  called ToDrinQ. The Blower data model is currently being used in collaboration with Waternet.
+ description: This data model is catered for drinkingwater treatment systems that are being considered as pilot studies
+  as part of the EU projectcalled ToDrinQ. In this project, software and optimisation tools are developed for the purpose of
+  providing critical information and decision support tools to operators and designers to adapt to short term and long term changes in water quality and their influence in drinking water treamtent systems
  mail: aron.aksan@kwrwater.nl
- organization: KWR Water Research Institue
+ organization: KWR Water Research Institute
  project: ToDrinQ
  comments: 
  startDate: 
